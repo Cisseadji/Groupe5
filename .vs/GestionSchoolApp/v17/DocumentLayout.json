@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|c:\\users\\hp\\documents\\l3 gl\\csharp\\gestionschoolapp\\gestionschoolapp\\forms\\formmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\formmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|c:\\users\\hp\\documents\\l3 gl\\csharp\\gestionschoolapp\\gestionschoolapp\\classes\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\classes\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|c:\\users\\hp\\documents\\l3 gl\\csharp\\gestionschoolapp\\gestionschoolapp\\forms\\formmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\formmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\gestionschoolapp\\forms\\formcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\formcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|c:\\users\\hp\\documents\\l3 gl\\csharp\\gestionschoolapp\\gestionschoolapp\\classes\\matiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\classes\\matiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\gestionschoolapp\\forms\\formcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\formcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|c:\\users\\hp\\documents\\l3 gl\\csharp\\gestionschoolapp\\gestionschoolapp\\forms\\formprofesseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\formprofesseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|c:\\users\\hp\\documents\\l3 gl\\csharp\\gestionschoolapp\\gestionschoolapp\\classes\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\classes\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|c:\\users\\hp\\documents\\l3 gl\\csharp\\gestionschoolapp\\gestionschoolapp\\forms\\formprofesseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\formprofesseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\gestionschoolapp\\forms\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\gestionschoolapp\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|c:\\users\\hp\\documents\\l3 gl\\csharp\\gestionschoolapp\\gestionschoolapp\\forms\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9296F-C29C-4C70-B7CE-8E8BE60AC5A2}|GestionSchoolApp\\GestionSchoolApp.csproj|solutionrelative:gestionschoolapp\\forms\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCours.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormCours.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\FormCours.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormCours.cs",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\FormCours.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T00:21:42.178Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCours.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormCours.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\FormCours.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormCours.cs [Design]",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\FormCours.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:55:07.361Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cours.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Classes\\Cours.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Classes\\Cours.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Classes\\Cours.cs",
+              "RelativeToolTip": "GestionSchoolApp\\Classes\\Cours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T11:13:16.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Matiere.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Classes\\Matiere.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Classes\\Matiere.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Classes\\Matiere.cs",
+              "RelativeToolTip": "GestionSchoolApp\\Classes\\Matiere.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:49:17.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMatiere.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormMatiere.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\FormMatiere.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormMatiere.cs",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\FormMatiere.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwL4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:36:33.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormMatiere.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormMatiere.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\FormMatiere.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormMatiere.cs [Design]",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\FormMatiere.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:36:28.494Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Classes\\Note.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Classes\\Note.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Classes\\Note.cs",
+              "RelativeToolTip": "GestionSchoolApp\\Classes\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:44:19.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormProfesseur.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormProfesseur.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\FormProfesseur.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormProfesseur.cs",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\FormProfesseur.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAkwOoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:14:07.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormProfesseur.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormProfesseur.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\FormProfesseur.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormProfesseur.cs [Design]",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\FormProfesseur.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:13:57.109Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\Form1.cs",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\Form1.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAD4v0kAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:54:32.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormEtudiant.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormEtudiant.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\FormEtudiant.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormEtudiant.cs",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\FormEtudiant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:24:10.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormEtudiant.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormEtudiant.cs",
+              "RelativeDocumentMoniker": "GestionSchoolApp\\Forms\\FormEtudiant.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\L3 GL\\CSharp\\GestionSchoolApp\\GestionSchoolApp\\Forms\\FormEtudiant.cs [Design]",
+              "RelativeToolTip": "GestionSchoolApp\\Forms\\FormEtudiant.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:16:19.05Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
