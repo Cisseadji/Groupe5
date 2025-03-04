@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.checkedListBoxMatieres = new System.Windows.Forms.CheckedListBox();
             this.btnupdate = new System.Windows.Forms.Button();
             this.btnadd = new System.Windows.Forms.Button();
@@ -37,7 +38,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -60,13 +60,23 @@
             this.groupBox1.Text = "Cours";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(337, 446);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(141, 40);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Supprimer";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // checkedListBoxMatieres
             // 
             this.checkedListBoxMatieres.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBoxMatieres.FormattingEnabled = true;
             this.checkedListBoxMatieres.Location = new System.Drawing.Point(21, 300);
             this.checkedListBoxMatieres.Name = "checkedListBoxMatieres";
-            this.checkedListBoxMatieres.Size = new System.Drawing.Size(201, 119);
+            this.checkedListBoxMatieres.Size = new System.Drawing.Size(201, 96);
             this.checkedListBoxMatieres.TabIndex = 6;
             // 
             // btnupdate
@@ -95,7 +105,7 @@
             this.txtdescription.Location = new System.Drawing.Point(21, 162);
             this.txtdescription.Multiline = true;
             this.txtdescription.Name = "txtdescription";
-            this.txtdescription.Size = new System.Drawing.Size(201, 106);
+            this.txtdescription.Size = new System.Drawing.Size(201, 95);
             this.txtdescription.TabIndex = 3;
             // 
             // txtnomcours
@@ -138,16 +148,6 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(572, 415);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(337, 446);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 40);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Supprimer";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormCours
             // 
