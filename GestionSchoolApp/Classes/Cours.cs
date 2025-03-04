@@ -12,8 +12,13 @@ namespace GestionSystemeEtudiant
         public int id {  get; set; }
         public string nomCours { get; set; }
         public string description { get; set; }
+<<<<<<< HEAD
         public ICollection<Classe> classes { get; set; }
         public ICollection<Matiere> matieres { get; set; }
+=======
+        public ICollection<Classe> classes { get; set; } = new List<Classe>();
+        public ICollection<Matiere> matieres { get; set; } = new List<Matiere>();
+>>>>>>> ef4057e (premier commit)
 
 
     }

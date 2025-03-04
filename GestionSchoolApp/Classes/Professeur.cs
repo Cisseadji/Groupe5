@@ -14,7 +14,12 @@ namespace GestionSystemeEtudiant
         public string prenom { get; set; }
         public string email { get; set; }
         public string tel { get; set; }
+<<<<<<< HEAD
         public ICollection<Classe> classes { get; set; }
         public ICollection<Matiere> matieres { get; set; }
+=======
+        public ICollection<Classe> classes { get; set; } = new List<Classe>();
+        public ICollection<Matiere> matieres { get; set; } = new List<Matiere>();
+>>>>>>> ef4057e (premier commit)
     }
 }

@@ -37,12 +37,24 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+<<<<<<< HEAD
+=======
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnaddmatiere = new System.Windows.Forms.Button();
+            this.btndelete = new System.Windows.Forms.Button();
+>>>>>>> ef4057e (premier commit)
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+<<<<<<< HEAD
+=======
+            this.groupBox1.Controls.Add(this.btndelete);
+            this.groupBox1.Controls.Add(this.btnaddmatiere);
+            this.groupBox1.Controls.Add(this.label3);
+>>>>>>> ef4057e (premier commit)
             this.groupBox1.Controls.Add(this.checkedListBoxMatieres);
             this.groupBox1.Controls.Add(this.btnupdate);
             this.groupBox1.Controls.Add(this.btnadd);
@@ -50,9 +62,15 @@
             this.groupBox1.Controls.Add(this.txtnomcours);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
+<<<<<<< HEAD
             this.groupBox1.Location = new System.Drawing.Point(45, 51);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(405, 506);
+=======
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(512, 564);
+>>>>>>> ef4057e (premier commit)
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cours";
@@ -62,20 +80,34 @@
             // 
             this.checkedListBoxMatieres.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBoxMatieres.FormattingEnabled = true;
+<<<<<<< HEAD
             this.checkedListBoxMatieres.Location = new System.Drawing.Point(156, 224);
             this.checkedListBoxMatieres.Name = "checkedListBoxMatieres";
             this.checkedListBoxMatieres.Size = new System.Drawing.Size(201, 188);
+=======
+            this.checkedListBoxMatieres.Location = new System.Drawing.Point(184, 249);
+            this.checkedListBoxMatieres.Name = "checkedListBoxMatieres";
+            this.checkedListBoxMatieres.Size = new System.Drawing.Size(272, 188);
+>>>>>>> ef4057e (premier commit)
             this.checkedListBoxMatieres.TabIndex = 6;
             // 
             // btnupdate
             // 
             this.btnupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnupdate.Location = new System.Drawing.Point(184, 446);
+=======
+            this.btnupdate.Location = new System.Drawing.Point(168, 446);
+>>>>>>> ef4057e (premier commit)
             this.btnupdate.Name = "btnupdate";
             this.btnupdate.Size = new System.Drawing.Size(141, 40);
             this.btnupdate.TabIndex = 5;
             this.btnupdate.Text = "Modifier";
             this.btnupdate.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+            this.btnupdate.Click += new System.EventHandler(this.btnupdate_Click);
+>>>>>>> ef4057e (premier commit)
             // 
             // btnadd
             // 
@@ -90,18 +122,32 @@
             // 
             // txtdescription
             // 
+<<<<<<< HEAD
             this.txtdescription.Location = new System.Drawing.Point(156, 99);
             this.txtdescription.Multiline = true;
             this.txtdescription.Name = "txtdescription";
             this.txtdescription.Size = new System.Drawing.Size(201, 106);
+=======
+            this.txtdescription.Location = new System.Drawing.Point(184, 99);
+            this.txtdescription.Multiline = true;
+            this.txtdescription.Name = "txtdescription";
+            this.txtdescription.Size = new System.Drawing.Size(272, 106);
+>>>>>>> ef4057e (premier commit)
             this.txtdescription.TabIndex = 3;
             // 
             // txtnomcours
             // 
+<<<<<<< HEAD
             this.txtnomcours.Location = new System.Drawing.Point(156, 41);
             this.txtnomcours.Multiline = true;
             this.txtnomcours.Name = "txtnomcours";
             this.txtnomcours.Size = new System.Drawing.Size(201, 42);
+=======
+            this.txtnomcours.Location = new System.Drawing.Point(184, 41);
+            this.txtnomcours.Multiline = true;
+            this.txtnomcours.Name = "txtnomcours";
+            this.txtnomcours.Size = new System.Drawing.Size(272, 42);
+>>>>>>> ef4057e (premier commit)
             this.txtnomcours.TabIndex = 2;
             // 
             // label2
@@ -129,19 +175,67 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             this.dataGridView1.Location = new System.Drawing.Point(481, 51);
+=======
+            this.dataGridView1.Location = new System.Drawing.Point(530, 12);
+>>>>>>> ef4057e (premier commit)
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
+<<<<<<< HEAD
             this.dataGridView1.Size = new System.Drawing.Size(478, 506);
             this.dataGridView1.TabIndex = 2;
+=======
+            this.dataGridView1.Size = new System.Drawing.Size(576, 564);
+            this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseClick);
+            this.dataGridView1.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDoubleClick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(16, 221);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(331, 25);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Associer des matières a ce cours";
+            // 
+            // btnaddmatiere
+            // 
+            this.btnaddmatiere.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaddmatiere.Location = new System.Drawing.Point(21, 492);
+            this.btnaddmatiere.Name = "btnaddmatiere";
+            this.btnaddmatiere.Size = new System.Drawing.Size(435, 40);
+            this.btnaddmatiere.TabIndex = 8;
+            this.btnaddmatiere.Text = "Creer une nouvelle matière";
+            this.btnaddmatiere.UseVisualStyleBackColor = true;
+            this.btnaddmatiere.Click += new System.EventHandler(this.btnaddmatiere_Click);
+            // 
+            // btndelete
+            // 
+            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.Location = new System.Drawing.Point(315, 446);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(141, 40);
+            this.btndelete.TabIndex = 9;
+            this.btndelete.Text = "Supprimer";
+            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
+>>>>>>> ef4057e (premier commit)
             // 
             // FormCours
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(971, 585);
+=======
+            this.ClientSize = new System.Drawing.Size(1152, 585);
+>>>>>>> ef4057e (premier commit)
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormCours";
@@ -165,5 +259,11 @@
         private System.Windows.Forms.Button btnupdate;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.CheckedListBox checkedListBoxMatieres;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Button btnaddmatiere;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btndelete;
+>>>>>>> ef4057e (premier commit)
     }
 }

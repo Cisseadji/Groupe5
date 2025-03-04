@@ -17,6 +17,10 @@ namespace GestionSchoolApp.Forms
         private AppDBContext _context = new AppDBContext();
         private Cours _cours;
         private ErrorProvider errorProviderCours = new ErrorProvider(); // Instance de l'ErrorProvider
+<<<<<<< HEAD
+=======
+        private Cours _coursSelectionne = null;
+>>>>>>> ef4057e (premier commit)
         public FormCours()
         {
             InitializeComponent();
@@ -77,7 +81,13 @@ namespace GestionSchoolApp.Forms
             dataGridView1.DataSource = null;
             using (var db = new AppDBContext())
             {
+<<<<<<< HEAD
                 dataGridView1.DataSource = db.Cours.ToList();
+=======
+                dataGridView1.DataSource = _context.Cours
+                .Select(c => new { c.id, c.nomCours, c.description })
+                .ToList();
+>>>>>>> ef4057e (premier commit)
             }
         }
 
@@ -137,6 +147,10 @@ namespace GestionSchoolApp.Forms
         }
         private void ChargerMatieres()
         {
+<<<<<<< HEAD
+=======
+
+>>>>>>> ef4057e (premier commit)
             // Charger les matières depuis la base de données et les afficher dans la CheckedListBox
             var matieres = _context.Matieres.ToList();
             checkedListBoxMatieres.Items.Clear();
@@ -144,6 +158,10 @@ namespace GestionSchoolApp.Forms
             {
                 checkedListBoxMatieres.Items.Add(matiere.nomMatiere);
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ef4057e (premier commit)
         }
         private void FormCours_Load(object sender, EventArgs e)
         {
@@ -168,5 +186,133 @@ namespace GestionSchoolApp.Forms
         {
 
         }
+<<<<<<< HEAD
+=======
+
+        private void btnaddmatiere_Click(object sender, EventArgs e)
+        {
+            FormMatiere formMatiere = new FormMatiere();
+            formMatiere.ShowDialog(); // Mieux que MdiParent pour éviter les erreurs
+            ChargerMatieres(); // Rafraîchir la liste après ajout
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+        }
+
+        private void actualise()
+        {
+            txtnomcours.Clear();
+            txtdescription.Clear();
+            _coursSelectionne = null;
+            for (int i = 0; i < checkedListBoxMatieres.Items.Count; i++)
+            {
+                checkedListBoxMatieres.SetItemChecked(i, false);
+            }
+        }
+
+        private void btndelete_Click(object sender, EventArgs e)
+        {
+            if (_coursSelectionne == null)
+            {
+                MessageBox.Show("Veuillez sélectionner un cours à supprimer.");
+                return;
+            }
+
+            DialogResult result = MessageBox.Show($"Voulez-vous vraiment supprimer le cours '{_coursSelectionne.nomCours}' ?",
+                                                  "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                _context.Cours.Remove(_coursSelectionne);
+                _context.SaveChanges();
+               refresh();
+                actualise();
+            }
+        }
+
+        // 📌 Charger les informations du cours sélectionné dans le formulaire
+        private void ChargerCours(int idCours)
+        {
+            // Récupérer le cours sélectionné depuis la base de données
+            _coursSelectionne = _context.Cours.Include("matieres").FirstOrDefault(c => c.id == idCours);
+
+            if (_coursSelectionne != null)
+            {
+                // Remplir les champs du formulaire avec les informations du cours
+                txtnomcours.Text = _coursSelectionne.nomCours;
+                txtdescription.Text = _coursSelectionne.description;
+
+                // Sélectionner les matières associées dans la CheckedListBox
+                for (int i = 0; i < checkedListBoxMatieres.Items.Count; i++)
+                {
+                    checkedListBoxMatieres.SetItemChecked(i, false); // Réinitialiser les cases à cocher
+
+                    var matiereNom = checkedListBoxMatieres.Items[i].ToString();
+                    if (_coursSelectionne.matieres.Any(m => m.nomMatiere == matiereNom))
+                    {
+                        checkedListBoxMatieres.SetItemChecked(i, true); // Cocher les matières associées
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Le cours sélectionné n'a pas été trouvé.");
+            }
+        }
+
+        private void dataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                int idCours = (int)dataGridView1.Rows[e.RowIndex].Cells[0].Value; // Assure-toi que c'est la colonne de l'ID du cours
+                ChargerCours(idCours); // Charger les informations du cours dans le formulaire
+            }
+        }
+
+        private void btnupdate_Click(object sender, EventArgs e)
+        {
+            if (_coursSelectionne == null)
+            {
+                MessageBox.Show("Veuillez sélectionner un cours à modifier.");
+                return;
+            }
+
+            // Mettre à jour les informations du cours
+            _coursSelectionne.nomCours = txtnomcours.Text;
+            _coursSelectionne.description = txtdescription.Text;
+
+            // Mettre à jour les matières associées
+            //_coursSelectionne.matieres.Clear(); // Supprimer les matières existantes
+
+            // Associer les matières sélectionnées
+            foreach (var item in checkedListBoxMatieres.CheckedItems)
+            {
+                var matiere = _context.Matieres.FirstOrDefault(m => m.nomMatiere == item.ToString());
+                if (matiere != null)
+                {
+                    _coursSelectionne.matieres.Add(matiere);
+                }
+            }
+
+            // Sauvegarder les modifications dans la base de données
+            _context.SaveChanges();
+            MessageBox.Show("Le cours a été mis à jour.");
+
+            // Réactualiser l'affichage des cours
+            refresh();
+            actualise();
+        }
+
+        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                int idCours = (int)dataGridView1.Rows[e.RowIndex].Cells[0].Value; // Assure-toi que c'est la colonne de l'ID du cours
+                ChargerCours(idCours); // Charger les informations du cours dans le formulaire
+            }
+
+        }
+>>>>>>> ef4057e (premier commit)
     }
 }

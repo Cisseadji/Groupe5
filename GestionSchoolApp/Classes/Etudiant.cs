@@ -19,7 +19,11 @@ namespace GestionSystemeEtudiant
         public string email { get; set; }
         public int idC { get; set; }
         public Classe classe { get; set; }
+<<<<<<< HEAD
         public ICollection<Note> Notes { get; set; }
+=======
+        public ICollection<Note> Notes { get; set; } = new List<Note>();
+>>>>>>> ef4057e (premier commit)
     }
 
     internal class EtudiantView

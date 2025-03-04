@@ -29,9 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+<<<<<<< HEAD
             this.label1 = new System.Windows.Forms.Label();
             this.txtnom = new System.Windows.Forms.TextBox();
             this.btnadd = new System.Windows.Forms.Button();
+=======
+            this.btnupdate = new System.Windows.Forms.Button();
+            this.btndelete = new System.Windows.Forms.Button();
+            this.btnadd = new System.Windows.Forms.Button();
+            this.txtnom = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+>>>>>>> ef4057e (premier commit)
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -39,6 +47,11 @@
             // 
             // groupBox1
             // 
+<<<<<<< HEAD
+=======
+            this.groupBox1.Controls.Add(this.btnupdate);
+            this.groupBox1.Controls.Add(this.btndelete);
+>>>>>>> ef4057e (premier commit)
             this.groupBox1.Controls.Add(this.btnadd);
             this.groupBox1.Controls.Add(this.txtnom);
             this.groupBox1.Controls.Add(this.label1);
@@ -49,6 +62,7 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+<<<<<<< HEAD
             // label1
             // 
             this.label1.AutoSize = true;
@@ -58,6 +72,39 @@
             this.label1.Size = new System.Drawing.Size(134, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nom Matière";
+=======
+            // btnupdate
+            // 
+            this.btnupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnupdate.Location = new System.Drawing.Point(182, 132);
+            this.btnupdate.Name = "btnupdate";
+            this.btnupdate.Size = new System.Drawing.Size(131, 40);
+            this.btnupdate.TabIndex = 6;
+            this.btnupdate.Text = "Modifier";
+            this.btnupdate.UseVisualStyleBackColor = true;
+            this.btnupdate.Click += new System.EventHandler(this.btnupdate_Click);
+            // 
+            // btndelete
+            // 
+            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.Location = new System.Drawing.Point(100, 191);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(131, 40);
+            this.btndelete.TabIndex = 5;
+            this.btndelete.Text = "Supprimer";
+            this.btndelete.UseVisualStyleBackColor = true;
+            // 
+            // btnadd
+            // 
+            this.btnadd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnadd.Location = new System.Drawing.Point(21, 132);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(131, 40);
+            this.btnadd.TabIndex = 4;
+            this.btnadd.Text = "Ajouter";
+            this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
+>>>>>>> ef4057e (premier commit)
             // 
             // txtnom
             // 
@@ -67,6 +114,7 @@
             this.txtnom.Size = new System.Drawing.Size(155, 34);
             this.txtnom.TabIndex = 2;
             // 
+<<<<<<< HEAD
             // btnadd
             // 
             this.btnadd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -77,6 +125,17 @@
             this.btnadd.Text = "Ajouter";
             this.btnadd.UseVisualStyleBackColor = true;
             this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
+=======
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(16, 57);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(134, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nom Matière";
+>>>>>>> ef4057e (premier commit)
             // 
             // dataGridView1
             // 
@@ -90,6 +149,10 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(362, 248);
             this.dataGridView1.TabIndex = 1;
+<<<<<<< HEAD
+=======
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
+>>>>>>> ef4057e (premier commit)
             // 
             // FormMatiere
             // 
@@ -115,5 +178,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnadd;
         private System.Windows.Forms.DataGridView dataGridView1;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Button btnupdate;
+        private System.Windows.Forms.Button btndelete;
+>>>>>>> ef4057e (premier commit)
     }
 }

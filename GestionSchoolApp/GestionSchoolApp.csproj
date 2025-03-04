@@ -113,9 +113,23 @@
     <Compile Include="Forms\FormUtilisateur.Designer.cs">
       <DependentUpon>FormUtilisateur.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\202503031735340_premier_migration.cs" />
     <Compile Include="Migrations\202503031735340_premier_migration.Designer.cs">
       <DependentUpon>202503031735340_premier_migration.cs</DependentUpon>
+=======
+    <Compile Include="Migrations\202502271431359_ma_premiere_migration.cs" />
+    <Compile Include="Migrations\202502271431359_ma_premiere_migration.Designer.cs">
+      <DependentUpon>202502271431359_ma_premiere_migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202502272158168_ma_deuxieme_migration.cs" />
+    <Compile Include="Migrations\202502272158168_ma_deuxieme_migration.Designer.cs">
+      <DependentUpon>202502272158168_ma_deuxieme_migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202502280103441_ma_troisieme_migration.cs" />
+    <Compile Include="Migrations\202502280103441_ma_troisieme_migration.Designer.cs">
+      <DependentUpon>202502280103441_ma_troisieme_migration.cs</DependentUpon>
+>>>>>>> ef4057e (premier commit)
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -141,8 +155,19 @@
     <EmbeddedResource Include="Forms\FormUtilisateur.resx">
       <DependentUpon>FormUtilisateur.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\202503031735340_premier_migration.resx">
       <DependentUpon>202503031735340_premier_migration.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Migrations\202502271431359_ma_premiere_migration.resx">
+      <DependentUpon>202502271431359_ma_premiere_migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202502272158168_ma_deuxieme_migration.resx">
+      <DependentUpon>202502272158168_ma_deuxieme_migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202502280103441_ma_troisieme_migration.resx">
+      <DependentUpon>202502280103441_ma_troisieme_migration.cs</DependentUpon>
+>>>>>>> ef4057e (premier commit)
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
